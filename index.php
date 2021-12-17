@@ -18,8 +18,7 @@
      	<button type="submit">Login</button>
 		</form>
 	</div>
-		
-		  <?php
+	<?php
          if($_SERVER['REQUEST_METHOD']=='POST'){
         $email=$_POST['email'];
     $password=$_POST['pass'];
